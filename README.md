@@ -60,7 +60,7 @@ gzip,brotli,disable から選べる。
 [WebGL ビルドしたコンテンツを nginx で配信する](https://egashira.dev/blog/webgl-nginx-server-conf)
 結構手の込んだ設定が必要。
 
-Unity にパブリッシュする場合は圧縮しないとダメみたい
+Unity Play にパブリッシュする場合は圧縮しないとダメみたい
 (ローディング時に 90%ぐらいで固まる)。
 
 あと AWS S3 なんかだとオブジェクト単位で指定できるので
