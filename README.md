@@ -17,6 +17,8 @@ Unity Learn の
 
 Unity Editor は 2021.3 LTS
 
+パブリッシュ先は [MyScene1 - Unity Play](https://play.unity.com/mg/other/build-rzw)
+
 ## WebGL でビルドしようとすると Color Space を直せ、と言われる
 
 > In order to build a player, go to 'Player Settings...'
@@ -58,7 +60,11 @@ gzip,brotli,disable から選べる。
 [WebGL ビルドしたコンテンツを nginx で配信する](https://egashira.dev/blog/webgl-nginx-server-conf)
 結構手の込んだ設定が必要。
 
-パブリッシュする場合はまた話が別。AWS S3 なんかだとオブジェクト単位で指定できるし。
+Unity にパブリッシュする場合は圧縮しないとダメみたい
+(ローディング時に 90%ぐらいで固まる)。
+
+あと AWS S3 なんかだとオブジェクト単位で指定できるので
+Terraform かなんかでうまいことやる。
 
 ## Unity Editor で WebGL で build すると影がでないのはなぜ?
 
