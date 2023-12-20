@@ -79,3 +79,13 @@ File \> Publishing Settings \> Quarity のところで
 下の Default ▼ ▼ ▼ の一番右の ▼ をクリックするとプルダウンが出る。
 
 Ultra でなく Very High でも影は出る。
+
+```
+My Scene 1
+
+My first microgame! (sorry, it's not a game.)
+It's my Unity Learn assignment.
+
+* ESC key to restart.
+* Left and right key to rotate camera.
+```
